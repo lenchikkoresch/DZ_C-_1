@@ -4,8 +4,8 @@ int a = Convert.ToInt32(numberStr1);
 Console.WriteLine("Введите второе число");
 string numberStr2 = Console.ReadLine();
 int b = Convert.ToInt32(numberStr2);
-int c = a * a;
-if (c == b)
+int c = b * b;
+if (c == a)
 {
     Console.WriteLine("Первое число квадрат второго");
 }
